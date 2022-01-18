@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "name": "task3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radush98/task3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radush98/task3/issues"
+  },
+  "homepage": "https://github.com/radush98/task3#readme",
+  "description": ""
+}
