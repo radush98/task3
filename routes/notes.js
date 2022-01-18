@@ -4,16 +4,19 @@ import {
     addNote,
     getNote,
     deleteNote,
-    editNote
+    editNote,
+    getStatistics
 } from '../services/notes.js';
 
 const router = express.Router();
 
 router.get('/', getAll);
 
-router.post('/', addNote);
+router.get('/stats', getStatistics);
 
 router.get('/:id', getNote);
+
+router.post('/', addNote);
 
 router.delete('/:id', deleteNote);
 
