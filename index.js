@@ -11,8 +11,6 @@ app.use(bodyParser.json());
 app.use('/notes', notesRoutes);
 
 app.get('/', (req, res) => {
-    console.log('TEST');
-
     res.send('Hello from Homepage')
 });
 
