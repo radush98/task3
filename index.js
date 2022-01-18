@@ -8,7 +8,7 @@ const PORT = 5000;
 
 app.use(bodyParser.json());
 
-app.use('/', notesRoutes);
+app.use('/notes', notesRoutes);
 
 app.get('/', (req, res) => {
     console.log('TEST');
