@@ -1,4 +1,4 @@
-import { categories } from "../repositories/database.js"
+import { categories } from "../database.js"
 
 export const checkType = (field, type) => {
     return (typeof (field) !== type)? false : true

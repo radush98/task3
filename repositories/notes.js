@@ -1,8 +1,8 @@
 import { v4 as uuidv4 } from 'uuid';
-import { notes, categories, ERROR_MESSAGE } from '../repositories/database.js';
+import { notes, categories, ERROR_MESSAGE } from '../database.js';
 import { getDate } from '../helpers/getCurrentDate.js';
 import { parseData } from '../helpers/parseData.js';
-import { isCorrect, checkCategory, checkType } from '../helpers/checkInput.js';
+import { isCorrect, checkCategory, checkType } from '../services/checkInput.js';
 
 export const getAll = (req, res) => {
     res.send(notes);

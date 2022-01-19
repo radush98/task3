@@ -6,7 +6,7 @@ import {
     deleteNote,
     editNote,
     getStatistics
-} from '../services/notes.js';
+} from '../repositories/notes.js';
 
 const router = express.Router();
 
